@@ -1,4 +1,3 @@
-# ref: https://medium.com/@harsathAI/create-a-simple-blockchain-with-python-under-60-lines-of-code-step-by-step-walkthrough-f3f7b60bb2e8
 
 import datetime
 import hashlib
@@ -10,7 +9,7 @@ class Block:  # Starting Of Out BLock Class
     next = None
     hash = None
     nonce = 0
-    # Our Hash is a Haxa Decimal Data so we are declaring it as 0x0
+    # Our Hash is a Hex Decimal Data, so we are declaring it as 0x0
     previous_hash = 0x0
 
     timestamp = datetime.datetime.now()
